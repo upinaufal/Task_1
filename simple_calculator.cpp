@@ -3,7 +3,7 @@ using namespace std;
 
 int main ()
 {
-    float op1,op2, hasil;
+    float a1,a2, hasil;
     char operasi;
     
     cin >> op1 >> operasi >> op2;
@@ -11,19 +11,19 @@ int main ()
     switch(operasi)
     {
         case '+':
-          hasil = a + b;
+          hasil = a1 + a2;
           break;
         
         case '-':
-          hasil = a - b;
+          hasil = a1 - a2;
           break;
           
         case '*':
-          hasil = a * b;
+          hasil = a1 * a2;
           break;
           
         case '/':
-          hasil = a / b;
+          hasil = a1 / a2;
           break;
         
         default:
