@@ -6,7 +6,8 @@ int main ()
     float a1,a2, hasil;
     char operasi;
     
-    cin >> op1 >> operasi >> op2;
+    cout << "Input angka yang akan dioperasikan (cth: 1+2): \n";
+    cin >> a1 >> operasi >> a2;
     
     switch(operasi)
     {
@@ -31,6 +32,6 @@ int main ()
           return -1;
     }
     
-    cout << result << endl;
+    cout << "Hasilnya adalah " << hasil << endl;
     return 0;
 }
